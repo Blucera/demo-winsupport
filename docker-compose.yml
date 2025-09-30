@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  winsupport:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "<your_port>:8501" # Add your assigned port here i.e <yourPort>:8501
+    environment:
+      # Tell your app where to reach Ollama
+      OLLAMA_HOST: http://172.17.0.1:11434
+    extra_hosts:
+      - "host.docker.internal:172.17.0.1"
+    restart: unless-stopped
