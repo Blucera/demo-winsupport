@@ -4,9 +4,9 @@
 WinSupport is a powerful AI agent that takes your business information in a form of PDF and based on content answer your customers. No need for manual customer support when Winsupport can handle customer fast and 24/7
 
 ## Features
-- Upload your custom knowledge, No size limit
-- Chat Screen to query from provided PDF
-- Multiple PDF supported
+- Upload your custom knowledge.
+- Chat Screen to query from provided PDF.
+- Multiple PDF supported.
 
 
 
